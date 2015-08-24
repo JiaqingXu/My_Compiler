@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1436342286 source:e:\my_c\my_c_compiler\词法分析\word.c
+	"word.h"
+
+1436339973 e:\my_c\my_c_compiler\词法分析\word.h
+
+1440220728 source:e:\my_c\my_c_compiler\array\arr.h
+
+1440312230 source:e:\my_c\my_c_compiler\lib\error.c
+	<stdarg.h>
+	"error.h"
+	<string.h>
+	"arr.h"
+
+1440311451 e:\my_c\my_c_compiler\lib\error.h
+	"str.h"
+	"arr.h"
+	"word.h"
+
+1440311282 e:\my_c\my_c_compiler\lib\str.h
+
+1440311059 e:\my_c\my_c_compiler\lib\arr.h
+	"word.h"
+
+1440311519 e:\my_c\my_c_compiler\lib\word.h
+
+1440312447 source:e:\my_c\my_c_compiler\lib\str.c
+	"str.h"
+	<stdlib.h>
+	<malloc.h>
+
+1440312456 source:e:\my_c\my_c_compiler\lib\word.c
+	<stdio.h>
+	<stdlib.h>
+	"word.h"
+	"arr.h"
+
+1440312185 source:e:\my_c\my_c_compiler\lib\arr.c
+	"arr.h"
+	"stddef.h"
+

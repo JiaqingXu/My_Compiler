@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="Lib\arr.c" open="1" top="0" tabpos="8">
+		<Cursor position="1500" topLine="49" />
+	</File>
+	<File name="Lib\arr.h" open="1" top="0" tabpos="4">
+		<Cursor position="83" topLine="0" />
+	</File>
+	<File name="Lib\error.c" open="1" top="1" tabpos="1">
+		<Cursor position="2956" topLine="107" />
+	</File>
+	<File name="Lib\error.h" open="1" top="0" tabpos="2">
+		<Cursor position="140" topLine="0" />
+	</File>
+	<File name="Lib\str.c" open="1" top="0" tabpos="7">
+		<Cursor position="1886" topLine="66" />
+	</File>
+	<File name="Lib\str.h" open="1" top="0" tabpos="6">
+		<Cursor position="248" topLine="0" />
+	</File>
+	<File name="Lib\word.c" open="1" top="0" tabpos="3">
+		<Cursor position="1975" topLine="73" />
+	</File>
+	<File name="Lib\word.h" open="1" top="0" tabpos="5">
+		<Cursor position="1938" topLine="56" />
+	</File>
+</CodeBlocks_layout_file>
