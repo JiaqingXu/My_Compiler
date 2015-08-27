@@ -9,23 +9,8 @@
 #include <stdarg.h>
 #include "error.h"
 #include <string.h>
-#include "arr.h"
-/***************************************
-错误级别
-***************************************/
-enum e_ErrorLever
-{
-    Lever_Warning,
-    Lever_Error,
-};
-/***************************************
-工作阶段
-*****************************************/
-enum e_WorkeStage
-{
-    Stage_Campile,
-    Stage_Link,
-};
+#include "sys.h"
+
 
 /*异常处理*/
 /************************************

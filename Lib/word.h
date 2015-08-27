@@ -1,6 +1,6 @@
 #ifndef WORD_H_INCLUDED
 #define WORD_H_INCLUDED
-
+#include "sys.h"
 enum e_TokenCode//单词编码
 {
     /*运算符*/
@@ -65,6 +65,13 @@ typedef struct TkWord
     struct Symbol *sym_struct;              //只想单词所表示的结构定义
     struct Symbol *sym_identifier;          //只想单词所表示的标识符
 }TkWord;
-
+int elf_hash(char*key);
+TkWord * tkword_direct_insert(TkWord * tp);
+TkWord * tkword_find(char *p,int keyno);
+TkWord *tkword_insert(char *p);
+void * mallocz(int size);
+void init_lex();
+void got_token();
+void getch();
 int token;
 #endif

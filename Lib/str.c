@@ -7,7 +7,7 @@
                     Ðì¼Îˆ½
 *****************************************************/
 
-#include "str.h"
+#include "sys.h"
 #include <stdlib.h>
 #include <malloc.h>
 
@@ -62,7 +62,7 @@ void dynstring_reset(Dynstring *pstr)
 *pstr:×Ö·û´®½á¹¹
 *new_size£º×Ö·û´®ÐÂ³¤¶È
 ******************************************************/
-void Dynstring_relloc(Dynstring *pstr,int new_size)
+void dynstring_relloc(Dynstring *pstr,int new_size)
 {
     int capacity;
     char * data;
